@@ -1,0 +1,200 @@
+/*************** Reset *********************/
+* {
+  margin: 0rem;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/******************* FORSIDE *******************/
+/******************** Body **********************/
+
+body {
+  background-color: blanchedalmond;
+  padding: 10px;
+
+  h1 {
+    /*************** Fonts *******************/
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    margin-block: 0.9rem 0.8rem;
+  }
+
+  h2 {
+    font-family: "Rubik Spray Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+h3 {
+  margin-block: 0.8rem -0.5rem;
+}
+
+dt {
+  font-weight: bold;
+  color: rgb(43, 49, 226);
+}
+
+.mincomputerlink {
+  color: darkorchid;
+  background-color: rgb(248, 183, 249);
+  font-family: "Rubik Spray Paint", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding: 14px 25px;
+  border: 3px solid rgb(43, 49, 226);
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 22px;
+}
+
+/************* Classes **********/
+
+.computere {
+  color: rgb(225, 64, 237);
+}
+.underoverskrift {
+  color: rgb(225, 64, 237);
+}
+
+/************** KOMPONENTER ***************/
+
+p {
+  margin-block: 0.1rem 0rem;
+}
+
+/************** Classes **************/
+.komponenter {
+  color: darkolivegreen;
+}
+
+.køling {
+  color: darkolivegreen;
+}
+
+.motherboard {
+  color: darkolivegreen;
+}
+
+.luftkøling {
+  color: darkolivegreen;
+}
+
+.vandkøling {
+  color: darkolivegreen;
+}
+.vigtigekomponenter {
+  color: darkolivegreen;
+}
+
+/****************** MIN COMPUTER ********************/
+
+/****************** Classes ************************/
+
+.mincomputer {
+  color: rgb(94, 57, 245);
+}
+.type {
+  color: rgb(94, 57, 245);
+}
+.specifikationer {
+  color: rgb(94, 57, 245);
+}
+ul {
+  padding-left: 16px;
+}
+
+/**************** OPERATIVSYSTEMER ****************/
+
+/***************** Classes ********************/
+
+.operativsystemer {
+  font-size: 2.25rem;
+  color: coral;
+}
+.mac {
+  font-size: 2rem;
+  color: coral;
+  margin-top: 0rem;
+}
+
+.windows {
+  font-size: 2rem;
+  color: coral;
+}
+
+.tabletsogmobiler {
+  font-size: 2rem;
+  color: coral;
+}
+
+/****************** Footer *****************/
+footer {
+  margin-block: 2rem;
+  font-family: "Rubik Spray Paint", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(50, 79, 243);
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: rgb(247, 146, 248);
+}
+
+/******************** Menu ******************/
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #dc79f7;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  @media (width < 700px) {
+    display: none;
+  }
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #333333;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.menu a:hover {
+  color: #ff0000;
+}
